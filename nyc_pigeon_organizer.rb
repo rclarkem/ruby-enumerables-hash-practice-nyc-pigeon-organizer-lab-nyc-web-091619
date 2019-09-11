@@ -18,7 +18,7 @@ p "#{actual_col_gend_loc}: #{names}"
  # {"Theo" => {color => ['purple']},}
  #still within the names loop, so iteration[2] is still on color '**purple**'
   # {"Theo" => {color => ['purple']}, "Peter Jr." => {color => [purple]}....
-	new_hash[indiv_names][col_gend_loc] << actual_col_gend_loc
+	new_hash[indiv_names][col_gend_loc] << actual_col_gend_loc.to_s
  end
 end
 end

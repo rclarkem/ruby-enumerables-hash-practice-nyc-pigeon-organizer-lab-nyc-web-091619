@@ -24,3 +24,32 @@ end
 end
 p new_hash
 end
+
+
+# Had to do in JS to get the hang of this:
+# function nycPigeonOrganizer (data){
+# let newHash = {}
+# for(let mainAttr in data){
+# 	// gender, color, lives
+# 	// console.log(data[mainAttr])
+# 	for(let innerAttr in data[mainAttr]){
+# 		// purple, female, Subway
+# 		// console.log(innerAttr)
+# 			for(let i = 0; i < data[mainAttr][innerAttr].length; i++){
+# 				let names = data[mainAttr][innerAttr][i]
+# 				console.log(data[mainAttr][innerAttr][i])
+# 			if(!newHash[names]){
+# 				newHash[names] = {}
+# 				console.log(newHash)
+# 			}
+# 			if(!newHash[names][mainAttr]){
+# 				newHash[names][mainAttr] = []
+# 				console.log(newHash)
+# 			}
+# 			newHash[names][mainAttr].push(innerAttr)
+# 	}
+
+# }
+# }
+# // console.log(newHash)
+# }
